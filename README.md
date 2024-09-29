@@ -204,6 +204,9 @@ In conclusion, while Google Crowdsource offers an efficient and user-friendly pl
 
 The Mercor sign-up process took approximately 40 minutes, including a 20-minute AI-led interview. This process required submitting a resume and participating in the video interview. The streamlined approach offers efficiency in the hiring process. However, I haven't received a match yet from Mercor based on my interview.
 
+<img width="1050" alt="Screenshot 2024-09-29 at 3 32 43 PM" src="https://github.com/user-attachments/assets/846fafa0-5541-423e-b277-ae199e30582d">
+
+
 ### AI Interview Experience
 
 The AI interviewer demonstrated impressive capabilities:
