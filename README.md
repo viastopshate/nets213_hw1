@@ -1,5 +1,6 @@
 # Nets 2130 Homework 1 Writeup
-## By Via Liu
+## Author: Via Liu
+
 ## Overview
 Three platforms are tried out with different aspects of crowdsourcing: Zooniverse, Google Crowdsourcing, and Mercor.
 
