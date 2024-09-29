@@ -4,7 +4,7 @@ Nets 2130 Homework 1 Writeup
 
 ## Project Selection and Tasks
 
-I selected six diverse projects on Zooniverse to explore different aspects of crowdsourcing relating to sciences:
+I selected six diverse projects on Zooniverse to explore different aspects of crowdsourcing relating to sciences. Here is a screenshot of the progress of my projects:
 
 <img width="1257" alt="Screenshot 2024-09-29 at 10 07 52 AM" src="https://github.com/user-attachments/assets/4c97f28c-065e-4d3e-a8a7-396e8b7b798f">
 
