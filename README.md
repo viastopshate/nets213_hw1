@@ -2,7 +2,7 @@
 ## Author: Via Liu
 
 ## Overview
-Three platforms are tried out with different aspects of crowdsourcing: Zooniverse, Google Crowdsourcing, and Mercor.
+Three platforms are tried out with different aspects of crowdsourcing: **Zooniverse, Google Crowdsourcing, and Mercor**.
 
 This writeup explores my experiences with three distinct crowdsourcing platforms, each offering unique insights into the field. From citizen science projects on Zooniverse to AI-driven hiring processes on Mercor, I've engaged with a diverse range of tasks. The following sections detail my observations, challenges encountered, and reflections on the potential impacts of these platforms on scientific research, data collection, and recruitment processes.
 
