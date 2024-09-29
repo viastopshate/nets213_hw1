@@ -4,7 +4,7 @@
 ## Overview
 Three platforms are tried out with different aspects of crowdsourcing: Zooniverse, Google Crowdsourcing, and Mercor.
 
-This writeup explores my experiences with three distinct crowdsourcing platforms, each offering unique insights into the field. From citizen science projects on Zooniverse to AI-driven hiring processes on Mercor, I've engaged with a diverse range of tasks and methodologies. The following sections detail my observations, challenges encountered, and reflections on the potential impacts of these platforms on scientific research, data collection, and recruitment processes.
+This writeup explores my experiences with three distinct crowdsourcing platforms, each offering unique insights into the field. From citizen science projects on Zooniverse to AI-driven hiring processes on Mercor, I've engaged with a diverse range of tasks. The following sections detail my observations, challenges encountered, and reflections on the potential impacts of these platforms on scientific research, data collection, and recruitment processes.
 
 # Zooniverse
 
@@ -26,7 +26,7 @@ I selected six diverse projects on Zooniverse to explore different aspects of cr
 The tasks primarily involved classification, which humans can often perform more accurately than machines in certain contexts. For example:
 
 - Identifying sharks or birds in images (Shark Spy and Wildlife Watch)
-- Classifying galaxy types and asteroid characteristics (Galaxy Zoo and Exosteroids)
+- Classifying galaxy types and asteroid changes (Galaxy Zoo and Exosteroids)
 - Inferring emotions from written statements (Reading Emotions)
 - Identifying infrastructure features like bridges and unpaved roads in satellite imagery (Sudan Road Access)
 
@@ -110,7 +110,7 @@ While Zooniverse's volunteer model avoids many of the ethical concerns associate
 
 Looking ahead, Zooniverse and similar platforms could explore:
 
-1. Enhanced feedback mechanisms to show volunteers the direct impact of their work
+1. Enhanced feedback mechanisms to show volunteers the direct impact of their work (important!)
 2. Integration of machine learning to complement human efforts and tackle more complex tasks
 3. Expanded educational resources to deepen volunteers' understanding of the scientific process
 4. Partnerships with schools and universities to integrate citizen science into curricula
@@ -149,19 +149,17 @@ Google Crowdsource employs a badge system to motivate users, which I found both 
 
 The badge system serves multiple purposes:
 - It provides a sense of achievement and progress
-- Encourages users to diversify their contributions across different task types
+- Encourages users to diversify their contributions across different task types (although in my case there is only one task to choose from)
 - Potentially increases user retention by setting incremental goals
 
-If I were to design a new badge, I might create one called "Consistency Champion." Users could earn Level 1 of this badge by completing at least one task every day for a week. This would encourage regular engagement with the platform.
+If I were to design a new badge, I might create one called "Consistency Champion." Users could earn Level 1 of this badge by completing at least one task every day for a week. This would encourage regular engagement with the platform instead of only doing the task once in a while.
 
 ## Data Quality and Verification
 
-When faced with ambiguous cases, I opted to make educated guesses rather than skipping the tasks. This approach, while potentially introducing some noise into the data, aligns with the likely strategy employed by Google to filter and verify contributions.
-
-Google likely verifies the reliability of annotators through consensus mechanisms, comparing responses across multiple users for the same image. To design a system that filters out unreliable annotators, one could:
+When faced with ambiguous cases, I opted to make educated guesses rather than skipping the tasks. Google likely verifies the reliability of annotators through consensus mechanisms, comparing responses across multiple users for the same image. To design a system that filters out unreliable annotators, one could:
 
 1. Implement honeypot tasks with known answers to gauge accuracy
-2. Track user response times to identify suspiciously fast submissions
+2. Track user response times to identify suspiciously fast submissions or spam
 3. Analyze patterns in user responses to detect automated or random inputs
 4. Gradually increase task complexity for users who consistently provide accurate answers
 
@@ -169,7 +167,7 @@ Google likely verifies the reliability of annotators through consensus mechanism
 
 Unlike Amazon Mechanical Turk, Google Crowdsource doesn't offer monetary incentives. This approach likely stems from several factors:
 
-1. Task Simplicity: The tasks are generally quick and don't require specialized skills
+1. Task Simplicity: The tasks are generally very quick to complete and don't require specialized skills
 2. Volume Strategy: Google aims for a high volume of contributions, which would be costly to incentivize financially
 3. Data Value: The individual value of each contribution is relatively low, but becomes significant in aggregate
 4. User Engagement: The platform leverages intrinsic motivation and gamification instead of financial rewards
@@ -184,11 +182,11 @@ However, this model presents challenges in user acquisition and retention. As so
 
 The tasks on Google Crowdsource directly contribute to improving various Google products:
 
-- Image Recognition: Enhances Google Images search accuracy
-- Image Captioning: Improves accessibility features and image-based search
-- Handwriting Recognition: Refines Google Lens and document digitization capabilities
-- Facial Expression Recognition: Potentially aids in developing more sophisticated image processing algorithms
-- Landmark Identification: Enhances Google Maps and travel-related services
+- **Image Recognition**: Enhances Google Images search accuracy
+- **Image Captioning**: Improves accessibility features and image-based search
+- **Handwriting Recognition**: Refines Google Lens and document digitization capabilities
+- **Facial Expression Recognition**: Potentially aids in developing more sophisticated image processing algorithms
+- **Landmark Identification**: Enhances Google Maps and travel-related services
 
 ## Overall User Experience
 
@@ -210,12 +208,12 @@ The Mercor sign-up process took approximately 40 minutes, including a 20-minute 
 ### AI Interview Experience
 
 The AI interviewer demonstrated impressive capabilities:
-- Captured key points from my responses
+- Captured key points from my responses (with my responses sometimes being very long)
 - Formulated relevant follow-up questions that dived deep into technical difficulties
 - Showed attentiveness to detail (and abiltiy to formulate questions based on detail)
 
 However, the interview had limitations:
-- It overly focused on one aspect of my experience
+- It overly focused on one aspect of my experience, and didn't ask a variety of questions based on my resume.
 - It lacked diversity in question types (key issue)
 - Did not allow for a comprehensive showcase of skills
 
@@ -230,7 +228,7 @@ While the AI interview felt less pressured and allowed for free expression, it l
 
 The use of AI in the hiring process, in my opinion, raises several ethical considerations:
 
-1. **Fairness and Bias**: Can AI truly evaluate candidates fairly without human oversight?
+1. **Fairness and Bias**: Can AI truly evaluate candidates fairly?
 2. **Data Privacy**: How is interview data stored and used?
 3. **Job Displacement**: Will AI interviewers replace human HR professionals?
 
@@ -260,7 +258,7 @@ Based on the Mercor experience, here are suggestions for enhancing AI-driven pla
 
 The Mercor model showcases both the potential and limitations of AI in hiring and, by extension, in managing crowdsourced labor:
 
-1. **Efficiency vs. Depth**: AI can quickly process large numbers of candidates but may miss subtleties that human recruiters catch.
+1. **Efficiency vs. Depth**: AI can quickly process large numbers of candidates but may miss subtleties that human recruiters catch and maybe overly focused on some certain features.
 2. **Skill Evaluation**: Certain skills, especially soft skills, may be challenging for AI to assess accurately.
 3. **Evolving Job Roles**: As AI takes over routine screening tasks, human HR roles may shift towards more strategic, interpersonal aspects of hiring and worker management.
 
